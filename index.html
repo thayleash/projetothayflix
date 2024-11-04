@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Netflix</title>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <img src="./img/logo.png" class="img-topo">
+        </li>
+        <li>
+            <img src="./img/avatar.png" class="img-topo">
+        </li>
+    </ul>
+    <div class="capa">
+        <h1 class="capa-titulo"> Stranger Things</h1>
+
+        <p class="capa-descricao">Situada no início dos anos 1980, Stranger Things se passa na cidade rural fictícia de
+            Hawkins, Indiana. Como fachada, o laboratório da região realizava experimentos científicos para o
+            Departamento de Energia Americano, quando na realidade, os pesquisadores ali investiram em experimentos com
+            o paranormal e o sobrenatural, incluindo o uso de cobaias humanas. Não intencionalmente, eles criaram um
+            portal para uma dimensão alternativa conhecida como Mundo Invertido, o que iria impactar a vida dos
+            residentes da pequena cidade. Em 1983, quando Will Byers (Noah Schnapp), um menino de 12 anos, desaparece
+            misteriosamente, o xerife Jim Hopper (David Harbour) inicia uma operação para encontrá-lo. Enquanto isso,
+            Mike (Finn Wolfhard), Dustin (Gaten Matarazzo) e Lucas (Caleb McLaughlin), melhores amigos de Will, decidem
+            procurá-lo por conta própria. Mas as investigações acabam levando o grupo em direção aos experimentos
+            secretos do governo e a Eleven (Millie Bobby Brown), uma peculiar menina perdida na floresta. Assim como as
+            crianças, a mãe Joyce Byers (Winona Ryder) está determinada e fará o impossível para rever o filho.</p>
+
+        <a class="link-assistir">Assistir</a>
+
+        <a class="link-info">Mais Informações</a>
+
+    </div>
+
+    <video src="./video/stranger-things.mp4" autoplay muted loop class="video"> </video>
+
+    <audio src="./audio/tudum-netflix-sound.mp3" class="audio"></audio>
+
+    <button class="botao-som">🔊</button>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+        <h2 class="titulo-carrossel">Principais Filmes e Séries</h2>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="./img/moonfall.jpg" class="imagem-carrossel">
+                <img src="./img/lift.jpg" class="imagem-carrossel">
+                <img src="./img/jaula.jpg" class="imagem-carrossel">
+                <img src="./img/hunter.jpg" class="imagem-carrossel">
+
+            </div>
+
+            <div class="carousel-item">
+                <img src="./img/f1.jpg" class="imagem-carrossel">
+                <img src="./img/chokehold.jpg" class="imagem-carrossel">
+                <img src="./img/abyss.jpg" class="imagem-carrossel">
+                <img src="img/one piece.jpg" class="imagem-carrossel">
+
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <div class="modal">
+        <div class="modal-conteudo">
+            <h2>Stranger Things</h2>
+            <p>Stranger Things é uma série de ficção científica criada pelos irmãos Duffer,Situada no início dos anos
+                1980, Stranger Things se passa na cidade rural fictícia de Hawkins, Indiana. a série tem inicio quando
+                Will Byers (Noah Schnapp), um menino de 12 anos, desaparece misteriosamente</p>
+            <p>Genero: <Strong>Drama, Fantasia, Terror, Ficção Científica, Suspense</Strong> </p>
+            <p>Ano de Lançamento: <strong> 2016</strong> </p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+    <footer class="rodape">© 2024 Eduardo Santos | Todos os direitos reservados</footer>
+
+</body>
+
+
+</html>
